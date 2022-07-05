@@ -6,14 +6,16 @@
  * Return: always 0
  */
 void print_alphabet_x10(void);
-{
-	char *c = "_putchar";
-	int i;
 
-	for (i = 0; i < 8; i++)
+void print_alphabet_x10(void)
+{
+	char character = 'a';
+	int j;
+
+	for (j = 0; j < 26; j++)
 	{
-		_putchar(c[i]);
+		_putchar(character);
+		character++;
 	}
 	_putchar('\n');
-	return (0);
 }
