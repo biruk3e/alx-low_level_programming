@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_alphabet_10x - prints alphabet
@@ -21,15 +22,3 @@ void print_alphabet_10x(void)
 	_putchar('\n');
 	}
 }
-/**
- * main - prints main
- *
- * Return: always 0
- */
-int main(void)
-{
-	print_alphabet_10x();
-	return (0);
-}
-
-
