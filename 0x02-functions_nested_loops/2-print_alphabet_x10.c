@@ -22,3 +22,8 @@ void print_alphabet_10x(void)
 	_putchar('\n');
 	}
 }
+int main(void)
+{
+	print_alphabet_10x();
+	return (0);
+}
